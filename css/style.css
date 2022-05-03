@@ -25,7 +25,13 @@
 	}
 
 	.menu__item{
+		color: #C3B9B5;
+		font-size: 18px;
 		margin: 0 80px 0 0;
+	}
+	.menu__item__1{
+		margin: -7px 0 0 0;
+		color: #59443F;
 	}
 
 	.container__A{
@@ -46,18 +52,14 @@
 		display: flex;
 	}
 	.container__number{
+		
 		margin-right: 200px;
 		height: 420px;
         
 	}
 
 
-	.number__item{
-		margin:0 0 25px 0 ;
-		width: 40px;
-		height: 40px;
-		padding: 10px 14px;
-	}
+	
 
 	.number__item > a{
     font-size: 18px;
@@ -67,11 +69,21 @@
 	
 
 	.number__1{
+
 		
-		border: 1px solid;
+		margin: 200px 0 100PX 0;
+		font-size: 80px
+		
+	}
+	.circle__1{
+		color: #FFFFFF;
+        margin: -7px 0 0px 30px ;
+		width:20px;
+		height:20px;
+		background-color: #FFC59E;
 		border-radius: 50%;
-		color: rgb(0, 0, 0);
-		
+
+
 	}
 	a{
 		display: flex;
@@ -83,11 +95,20 @@
 		
 	}
 
-	.container__text{
-		width: 645px;
-		height: 330px;
+	
+		
+	
+	.container__victoria{
+		display: flex;
+		margin: 200px -74px 230px 0;
+		border: 1px solid #C3B9B5;
+		border-radius: 20px;
 	}
 
+	.color__1{
+		font-size: 20px;
+		color: #C3B9B5;
+	}
 	.block__1{
 		width: 1770px;
 		height: 786px;
@@ -95,44 +116,155 @@
 		justify-content: space-between;
 
 	}
+	.personal__data{
+		font-size: 30px;
+		margin: 105px 0 0 231px;
+		width: 230px;
+		height: 40px;
+	}
+	.personal__data_1{
+		width: 234px;
+		height: 40px;
+		margin: 0 0 0 0;
+	}
+
+	.small__text{
+		color: #C3B9B5;
+		font-size: 15px;
+	}
+	.big__text{
+		color: #080606;
+		font-size: 20px;
+	}
+	.izmenit{
+		color: #FFC59E;
+		font-size: 20px;
+	}
+	.container__text__victoria{
+		padding: 0 176px 0 0;
+		margin: 0 11 0 0;
+	}
+	.vic{
+		color: #000;
+	}
+	.container__block2{
+		width: 909px;
 		
+		margin: 0 0 0 850px;
+
+	}
+	.my__pets{
+		text-align: center;
+		font-size: 30px;
+	}
 		
 	
-	.dogs{
-		width: 833px;
-		height: 796px;
-	}
-	.text{
-		font-size: 80px;
-	}
+	
+
 	.knopka{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 150px;
+		width: 900px;
 		background: #FFC59E;
 box-shadow: 0px 4px 20px #FFC59E;
 border-radius: 33.5px;
 font-family: 'Futura New';
 font-style: normal;
 font-weight: 700;
-font-size: 20px;
+font-size: 30px;
 line-height: 20px;
 color: #FFFFFF;
-padding: 24px 77px;
+padding: 24px 77px 0 0 ;
 margin: 50px 0 0 0;
 	}
-
-.ul__giv{
-	margin: 200px 0 0 0;
-	display: flex;
-}
-.telephone{
-	font-size: 27px;
-	margin: 0 150px 0 0;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-end;
-
-}
 	
+	.big__text_1{
+		font-size: 30px;
+	}
+	.sing{
+		width: 247px;
+		height: 40px;
+		font-size: 30px;
+		margin: 0 0 -177px 0;
+		
+	}
+	.container__grompel{
+		border-radius: 20px;
+		display: flex;
+		margin: 50px -74px -155px 0;
+		border: 1px solid #C3B9B5;
+	}
+	.container__text__grompel{
+		display: block;
+		padding: 0 176px 0 0;
+		margin: 0 11 0 0;
+
+	}
+	.big__text_g{
+		background: #FFFFFF;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+		
+		border: 1px solid #C3B9B5;
+		font-size: 20px;
+		display: flex;
 	
+		margin: 30px 0 0 0;
+		padding: 0 -1 0 0;
+	}
+	.small__text_g{
+		display: flex;
+	
+		margin: 0 0 0 130px;
+		padding: 0 0 0 0;
+		font-size: 15px;
+		color:#C3B9B5;
+	}
+	footer{
+		
+		background-color: #59443F;
+		width: 1920px;
+		height: 469px;
+		display: flex;
+		color: #FFFFFF;
+		margin: -130px 0 0 0 ;
+
+	}
+	.container__politica{
+		display: flex;
+		align-items: center;
+		font-size: 20px;
+	}
+	.aib{
+		margin: 89px -234px 0 201px ;
+		padding: 0 0 0 0;
+	}
+	.container__politica{
+		font-size: 20px;
+		width: 192px;
+		height: 120px;
+		margin: 250px  0 0 ;
+		
+	}
+	.glavna{
+		margin: 96px 100px 0 100px;
+	}
+	.otziv{
+		margin: 63px 0 0 0 ;
+	}
+	.container__contakt{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 60px 0 0 928px;
+	}
+	.giv__inst{
+		margin: 0 0 0 37px;
+	}
+
+
 
 	
 	
